@@ -1,0 +1,99 @@
+.menu-btn {
+  display: block;
+  position: fixed;
+  left: 2px;
+  background: #1dde1d;
+}
+
+nav {
+  display: none;
+}
+
+.section {
+  width: 100%;
+}
+
+.section h2 {
+  text-align: left;
+}
+
+.section h3, .section i {
+  text-align: center;
+}
+
+.overview {
+  top: 15%;
+  height: 85vh;
+}
+
+.overview .buttons {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  top: 40%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.overview .buttons #btn-1 {
+  margin: 15px;
+  padding: 5px;
+}
+
+.section {
+  height: 70vh;
+}
+
+.about-section {
+  width: 100%;
+  left: 0;
+  height: 75vh;
+}
+
+.about {
+  height: 700px;
+  -webkit-box-orient: vertical !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: column !important;
+          flex-direction: column !important;
+}
+
+.about img {
+  width: 60%;
+  margin-bottom: 1.8rem;
+}
+
+.about-section .about .content {
+  width: 80%;
+}
+
+#services {
+  display: none;
+}
+
+.skill-section {
+  width: 100%;
+  left: 0%;
+}
+
+.skill-category {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.skill-category .technical-skill {
+  width: 100%;
+}
+
+.skill-category .professional {
+  width: 100%;
+}
+/*# sourceMappingURL=responsive.css.map */

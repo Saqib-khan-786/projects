@@ -1,0 +1,272 @@
+ <div class="row1"> 
+     <div class="html"><span id="#span">90%</span><div class="fill"></div>
+    </div>
+ <div class="css"> <div class="fill"></div>css</div>
+
+
+
+   
+    background: rgb(0, 0, 0);
+    height: 100vh;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+   left: 25%;
+   flex-direction: column;
+
+ h2{
+     position: absolute;
+     top: 0;
+     color: white;
+     text-transform: uppercase;
+     width: 100%;
+     text-align: center;
+     color: $color;
+ }
+}
+
+.row1{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    .html{
+        border: 1px solid black;
+        width: 30%;
+        text-align: center;
+       border-radius: 50px;
+       background: rgba(158, 246, 155, 0.903);
+       position: relative;
+       overflow: hidden;
+      
+       .fill{
+           width: 90%;
+           height: 100%;
+           background:green ;
+        position: absolute;
+           top: 0;
+           @include animation(animation2,1)
+       }
+       span{
+        z-index: 555;
+        color: rgb(255, 255, 255);
+        position: absolute;
+       }
+
+    }
+    .css{
+        border: 1px solid black;
+        width: 30%;
+        text-align: center;
+        border-radius: 50px;
+        background: rgba(158, 246, 155, 0.903);
+    }
+}
+
+
+
+
+
+
+<div class="main-css">
+    <div class="css-bar"><span>85%</span></div>
+    <label for="">CSS</label>
+</div>
+<div class="main-js">
+    <div class="js js-bar-fill "><div class=" js-bar-fill"></div></div>
+    <label for="">Javacript</label>
+</div>
+
+<div class="main-bootstrap">
+    <div class="bootstrap-bar"><span>90%</span></div>
+    <label for="">Bootstrap</label>
+</div>
+
+
+<div class="main-jquery">
+    <div class="jquery-bar"><span>90%</span></div>
+    <label for="">jQuery</label>
+</div>
+
+<div class="main-scss">
+    <div class="scss-bar  "> <div class="scss"></div><span>90%</span></div>
+    <label for="">SASS</label>
+</div>
+
+
+.main-css{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px;
+    height: 20%;
+
+
+}
+
+
+.css-bar{
+    border: 1px solid $color;
+    width: 80%;
+    border-radius: 50px;
+    text-align: center;
+    background: white;
+    color: #000;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+    margin-left: 2px;
+span{
+    text-align: left;
+}
+
+        .css{
+            transition: width 2s;
+            width: 85%;
+        position: absolute;
+        width: 100%;
+        background: #000;
+        z-index: 55;
+          
+           
+        }
+
+        .css-bar-fill{
+            width: 85% !important;
+            background: $color;
+            z-index: 200;
+        }
+
+}
+
+
+.main-js{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    // justify-content: space-evenly;
+    align-items: center;
+    padding: 5px;
+    height: 20%;
+
+}
+
+
+.js-bar{
+    border: 1px solid $color;
+        width: 80%;
+        border-radius: 50px;
+        text-align: center;
+        background: white;
+        color: #000;
+        overflow: hidden;
+        position: relative;
+        z-index: 1;
+        margin-left: 2px;
+span{
+    text-align: left;
+    margin-left: 12px !important;
+}
+
+        .js{
+            transition: width 2s;
+            width: 0%;
+        }
+
+        .js-bar-fill {
+            background: $color;
+            width: 85%;
+        }
+
+}
+.main-bootstrap{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px;
+    height: 20%;
+
+}
+
+
+.bootstrap-bar{
+    border: 1px solid $color;
+        width: 80%;
+        border-radius: 50px;
+        text-align: center;
+        background: white;
+        color: #000;
+        overflow: hidden;
+        position: relative;
+        z-index: 1;
+        margin-left: 2px;
+span{
+    text-align: left;
+    margin-left: 12px !important;
+}
+
+        .bootstrap{
+            transition: width 2s;
+            width: 0%;
+        }
+
+        .bootstrap-bar-fill {
+            background: $color;
+            width: 85%;
+        }
+
+}
+
+.main-jquery{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    // justify-content: space-evenly;
+    align-items: center;
+    padding: 5px;
+    height: 20%;
+
+}
+
+
+.jquery-bar{
+    border: 1px solid $color;
+        width: 80%;
+        border-radius: 50px;
+        text-align: center;
+        background: white;
+        color: #000;
+        overflow: hidden;
+        position: relative;
+        z-index: 1;
+        margin-left: 2px;
+span{
+    text-align: left;
+    margin-left: 12px !important;
+}
+
+        .jquery{
+            transition: width 2s;
+            width: 0%;
+        }
+
+        .jquery-bar-fill {
+            background: $color;
+            width: 85%;
+        }
+
+}
+
+
+
+
+
+
+           
+      </div>
+    </div>

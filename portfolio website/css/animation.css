@@ -1,0 +1,36 @@
+@-webkit-keyframes animation-1 {
+  0% {
+    color: #1dde1d;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@keyframes animation-1 {
+  0% {
+    color: #1dde1d;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-webkit-keyframes animation2 {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 80%;
+  }
+}
+
+@keyframes animation2 {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 80%;
+  }
+}
+/*# sourceMappingURL=animation.css.map */

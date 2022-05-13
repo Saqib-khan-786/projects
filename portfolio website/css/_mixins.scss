@@ -1,0 +1,12 @@
+@mixin flexcenter($p1) {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: $p1;
+}
+
+@mixin  animation($name,$count) {
+    animation-name: $name;
+        animation-delay: 0s;
+        animation-iteration-count: $count;
+        animation-duration: 3s;
+}

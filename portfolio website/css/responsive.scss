@@ -1,0 +1,92 @@
+@import "_variables";
+
+body{
+    // background: red !important;
+ 
+    // display: none;
+}
+.menu-btn{
+    display: block;
+    position: fixed;
+    left: 2px;
+    background:$color;
+}
+nav{
+    display: none;
+}
+.section{
+    width: 100%;
+    h2{
+        text-align: left;
+    }
+    h3,i{
+        text-align: center;
+    }
+}
+.overview{
+
+    top: 15%;
+    height: 85vh;
+.buttons{
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+  top: 40%;
+  align-items:center;
+
+  
+
+  #btn-1{
+    margin: 15px;
+      padding: 5px;
+  }
+}
+}
+
+
+
+// about-sectyion
+.section{
+    height: 70vh;
+}
+.about-section{
+    width: 100%;
+    left: 0;
+    height: 75vh;
+}
+.about{
+
+    height: 700px;
+    flex-direction: column !important;
+    img{
+       width: 60%;
+       margin-bottom: 1.8rem;
+    }
+    
+}
+.about-section .about .content{
+    width: 80%;
+}
+
+// services
+#services{
+    display: none;
+}
+
+// skill -section
+
+.skill-section{
+    width: 100%;
+    left: 0%;
+}
+
+.skill-category{
+    flex-direction: column;
+
+    .technical-skill{
+        width: 100%;
+    }
+    .professional{
+        width: 100%;
+    }
+}

@@ -1,0 +1,20 @@
+@import "_variables";
+
+@keyframes animation-1 {
+        0%{
+        color: $color;
+    }
+    50%{
+        color: white;
+    }
+}
+
+
+@keyframes animation2 {
+    from{
+        width: 0%;
+    }
+    to{
+       width: 80%;
+    }
+}
