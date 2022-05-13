@@ -1,0 +1,22 @@
+@mixin mix1 {
+    font-size: 35px;
+    text-align: center;
+}
+@mixin  flexcenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin textgradient($color) {
+    background: $color;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+@mixin  badges($badgetype) {
+    background-image:$badgetype;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: contain;
+}

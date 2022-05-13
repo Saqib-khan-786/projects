@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <title>IICS Quiz Project</title>
+</head>
+
+<body onload="load()">
+
+  
+    <div class="details-page" id="details-page">
+        <div class="support">
+        <div class="logo" id="logo">
+        </div>
+        </div>
+        <div class="name transform"> mohd saqib</div>
+        <div class="rollno transform"> roll no : 20144</div>
+        <div class="course transform"> course : Web Designing With <span>E-Commerce</span></div>
+        <div class="duration transform">batch timing: 7:30 - 9:00</div>
+         <div class="btn transfrom">
+            <button id="showfrontpage" class="transform">Let's go to next page</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1 class="main-heading">IICS Quiz</h1>
+        <div class="timer"></div>
+<div class="main">
+    <div class="scores">
+        <span class="correct">✔ <span id="correctcount">0</span> </span>
+        <span class="wrong">❌ <span id="wrongcount">0</span> </span>
+    </div>
+    <div class="sub-main">
+            <h2 id="question" class="extra-styling1">read the instructions carefully</h2>
+            
+        <ul>
+            <li><input type="radio" name="ans" id="ans1" value="ans1" ><span class="alternate-radio">⚫</span><label for="option" id="option1" class="answer extra-styling">1: there are 10 questions</label></li>
+            <li><input type="radio" name="ans" id="ans2" value="ans1"><span class="alternate-radio">⚫</span><label for="option" id="option2" class="answer extra-styling">2: you will get one mark for correct answer</label></li>
+            <li><input type="radio" name="ans" id="ans3" value="ans1"><span class="alternate-radio">⚫</span><label for="option" id="option3" class="answer extra-styling">3: if you dont selector the answer and press the button you will get one negative mark</label></li>
+            <li><input type="radio" name="ans" id="ans4" value="ans1"><span class="alternate-radio">⚫</span><label for="option" id="option4" class="answer extra-styling">4:you have five minutes to solve the question 
+           
+     <br>
+     <br>
+    <span id="assesmemt-rules"> &#x1F6C8 read the assesment rules 
+        <div class="assesment"> 
+            ⚫ answer all the question correctly to get golden badge
+            <br>
+            ⚫answer minimum seven questions perfectly to get silver badge
+            <br>
+            ⚫answer minimum five question to get bronze badge
+        </div>
+    </span>
+
+    
+            </label></li>
+       </ul> 
+
+       <div class="buttons">
+           <button class="startquiz" id="start">Start Quiz</button>
+           <button class="next" id="next"> next</button>
+           <button class="showresults" id="showresult"> Show reult</button>
+           <button class="prev" id="prev">prev</button>
+    </div>
+</div>
+    </div>
+
+</div>
+
+
+<div class="result" id="result">
+    <div class="badges">
+ <div class="gold"></div>
+ <div class="silver"></div>
+ <div class="bronze"></div>
+    </div>
+    <h3 id="results-remark">congrats you have scored </h3>
+   <div id="finalscore">100%</div>
+   <button id="playagain" onclick="location.reload()">play agin</button>
+</div>
+<script src="js/script.js"></script>
+</body>
+
+</html>
